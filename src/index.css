@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0D1321;
+  color: #EFF1F3;
+  padding: 0;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Input fields in light text with dark background */
+input, textarea {
+  background-color: #19202f;
+  color: #EFF1F3;
+  border: 1px solid #2c3b50;
+}
+
+/* Default buttons */
+button {
+  background-color: #C5832B;
+  color: #0D1321;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Link colour */
+a {
+  color: #C5832B;
+}
+
+/* MUI paper cards, containers background colours*/
+.MuiPaper-root {
+  background-color: #19202f !important;
+  color: #EFF1F3 !important;
+}
+
+/* MUI input base background and text colour */
+.MuiInputBase-root {
+  background-color: #19202f !important;
+  color: #EFF1F3 !important;
+}
+
+/* MUI labels */
+.MuiInputLabel-root {
+  color: #b0b5bb !important;
+}
+
+/* MUI selects */
+.MuiSelect-select {
+  background-color: #19202f !important;
+  color: #EFF1F3 !important;
+}
+
+/* Input outline border */
+.MuiOutlinedInput-notchedOutline {
+  border-color: #3c4a60 !important;
+}
+
+/* Focused input border */
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #C5832B !important;
+}
+
+/* Checkbox and radio color */
+.MuiCheckbox-root,
+.MuiRadio-root {
+  color: #C5832B !important;
+}
+
+/* Helper text and typography */
+.MuiFormHelperText-root,
+.MuiTypography-root {
+  color: #b0b5bb !important;
+}
+
+/* All MUI buttons */
+.MuiButton-root {
+  background-color: #C5832B !important;
+  color: #0D1321 !important;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* MUI button hover */
+.MuiButton-root:hover {
+  background-color: #a86d24 !important;
+}
